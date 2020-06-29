@@ -1,0 +1,14 @@
+{
+  "name": "url-to-screenshots",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "François Rosato <francois.rosato@ekino.com>",
+  "license": "MIT",
+  "scripts": {
+    "run": "node inde.js",
+    "postinstall": "mkdir ./screenshots"
+  },
+  "dependencies": {
+    "puppeteer": "^4.0.1"
+  }
+}
